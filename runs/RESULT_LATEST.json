@@ -1,0 +1,181 @@
+{
+  "experiment": "EEGMMIDB_TRAIT_STATE_v0",
+  "finished_at": "2026-10-03T15:47:19.407908+00:00",
+  "prereg": {
+    "dataset": "PhysioNet eegmmidb 1.0.0",
+    "run": "R01 eyes-open baseline",
+    "epoch_sec": 2.0,
+    "sfreq_hz": 160.0,
+    "reference": "common_average",
+    "alpha_hilbert_hz": [
+      8,
+      13
+    ],
+    "plv_pair": [
+      "F4",
+      "P3"
+    ],
+    "n_features": 10,
+    "hypothesis": "dPR(within) - dPR(between) > 0"
+  },
+  "n_subjects": 78,
+  "n_epochs_total": 1322,
+  "skipped": [
+    {
+      "subject": 3,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 4,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 9,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 17,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 22,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 27,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 28,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 39,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 43,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 44,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 48,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 49,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 52,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 53,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 58,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 59,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 60,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 61,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 68,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 75,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 77,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 79,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 84,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 86,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 90,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 95,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 96,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 97,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 100,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 103,
+      "error": "insufficient_epochs"
+    },
+    {
+      "subject": 109,
+      "error": "insufficient_epochs"
+    }
+  ],
+  "d_pr_between": 3.5375631313079845,
+  "d_pr_within": 6.0113773292613555,
+  "delta_d_pr": 2.473814197953371,
+  "pc12_variance_fraction_between": 0.661802564004669,
+  "pc12_variance_fraction_within": 0.41770097700111547,
+  "bootstrap_delta": {
+    "n": 2000,
+    "delta_mean": 2.5047037337410676,
+    "ci95_low": 1.9238457395952573,
+    "ci95_high": 3.0118794583345005
+  },
+  "null_shuffle_participant_labels": {
+    "n_perm": 1000,
+    "delta_mean": 0.828197590558991,
+    "delta_std": 0.5852474906796489
+  },
+  "stress_random_1d_projection": {
+    "n_projections": 48,
+    "delta_mean": 0.0,
+    "delta_std": 0.0
+  },
+  "leave_one_participant_out": {
+    "n": 78,
+    "delta_mean": 2.4745528314920713,
+    "delta_std": 0.04153076754322724
+  },
+  "data_path": "data/eegbci",
+  "verdict": "supports_primary",
+  "interpretation": {
+    "methodologist_note": "Gap depends on 10-D feature engineering; see null + 1D projection.",
+    "panel_honest": "Empirical numbers on open data; naming is secondary to this result."
+  }
+}

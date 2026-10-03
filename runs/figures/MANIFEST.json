@@ -1,0 +1,11 @@
+{
+  "figures": [
+    "runs/figures/fig0_summary_panel.png",
+    "runs/figures/fig1_dpr_between_vs_within.png",
+    "runs/figures/fig2_covariance_eigen_spectra.png",
+    "runs/figures/fig3_bootstrap_delta_dpr.png",
+    "runs/figures/fig4_raw_epoch_S001_waveform_topomap.png"
+  ],
+  "result_json": "runs/RESULT_LATEST.json",
+  "n_subjects_cache": 78
+}

@@ -1,0 +1,5 @@
+# Pinned for EEGMMIDB trait–state v0 (2026-10-03 run)
+mne>=1.13,<1.14
+numpy>=2.5,<2.6
+scipy>=1.18,<1.19
+matplotlib>=3.11,<3.12

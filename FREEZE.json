@@ -1,0 +1,22 @@
+{
+  "protocol": "EEGMMIDB_TRAIT_STATE_v0",
+  "frozen_at": "2026-10-03T17:58:10.291855+00:00",
+  "files_sha256": {
+    "run_experiment.py": "593d0940313ce9a7154643858f079d9f55b4928af719fc2b5b1157f77a41a915",
+    "plot_measurements.py": "4286a8cc58d0c44ed636094c5515aaae183ae8034d053f434d474130ea2ee36b",
+    "requirements-eeg.txt": "54946d1f810ff1cb77d1761d49e46b6887585ce549a0803f58879150bb5aa6a2",
+    "README.md": "2fbe020eb67a9280d0a2011abc6b0a6a489fa1a6e0f3f907c75787bb06ac1007",
+    "REPRODUCE.md": "32a697e5605f74f57428ec5ae89b256dabe9d83d41621e0aeeecd3ad92a45434"
+  },
+  "result_sha256": "bdc065f2a7d8d5c1c126c9344d8218ed1626812e0688e2f5e64ce3edf8e739d3",
+  "result_path": "runs/RESULT_LATEST.json",
+  "environment": {
+    "mne": "1.13.2",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "python": "3.13.1"
+  },
+  "dataset": "PhysioNet eegmmidb 1.0.0 R01",
+  "reproduce": "See REPRODUCE.md; run: python run_experiment.py --full --no-prefetch"
+}
